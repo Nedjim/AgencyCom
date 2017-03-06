@@ -52,6 +52,7 @@ header {
 
    .actualites {
        padding-top: 4rem;
+       margin-bottom: 2rem;
        h1 {
            text-align: center;
            margin-bottom: 4rem;
@@ -96,4 +97,32 @@ header {
                 }
             }
         }
+
+        #strategies {
+            padding-bottom: 3rem;
+        }
+        #strategies > div {
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+            div {
+                display: inline-block;
+                margin-right: 2rem;
+                h3 {
+                    font-size: 1.8rem;
+                    text-align: left;
+                    span {
+                        color: $pink;
+                    }
+                }
+                p {
+                    font-style: italic;
+                    font-size: 0.8rem;
+                }
+            }
+            div:last-child {
+                margin-right: 0;
+            }
+        }
 }
+

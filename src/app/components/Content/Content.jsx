@@ -1,5 +1,6 @@
 import React from 'react';
 import Actualites from './Actualites.jsx';
+import Strategies from './Strategies.jsx';
 
 export default class Content extends React.Component {
     render(){
@@ -13,6 +14,7 @@ export default class Content extends React.Component {
                    différentes vies pour la faire connaître, grandir, évoluer, se moderniser, renaître... </p>
                 </div>
                 <Actualites />
+                <Strategies />
             </div>
         )
     }
