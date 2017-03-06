@@ -41,9 +41,59 @@ header {
 }
 
 #content {
-   text-align: center;
    margin-top: 4rem;
+   h1 {
+       text-align: center;
+   }
    .description {
        margin-top: 2rem;
+       text-align: center;
    }
+
+   .actualites {
+       padding-top: 4rem;
+       h1 {
+           text-align: center;
+           margin-bottom: 4rem;
+       }
+   }
+   .actualites > div {
+        width: 80%;
+        margin: 0 auto;
+          .actu {
+                margin-right: 1rem;
+                width: 20rem;
+                img {
+                    width: 20rem;
+                    display: block;
+                }
+                .date {
+                        margin-top: 0.8rem;
+                }
+                .title-actu {
+                    margin-top: 0.6rem;
+                }
+                .plus {
+                    margin-top: 1rem;     
+                }
+                .description {
+                    text-align: left;
+                }
+            }
+            .actu:nth-child(3) {
+                margin-right: 0;
+                position: absolute;
+            }
+            .more {
+                margin-top: 3rem;
+                text-align: center;
+                font-weight: bold;
+                .more-icone {
+                    width: 1.5rem;
+                    margin-left: 0.5rem;
+                    position: absolute;
+                    margin-top: -0.4rem;
+                }
+            }
+        }
 }

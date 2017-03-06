@@ -34,9 +34,24 @@ header {
         }
     }
     .actualites {
-        padding-top: 4rem;
+        color: $greyDark;
         h1 {
             color: $greyDark;
+        }
+        .actu {
+            .date {
+                color: $pink;
+                font-size: 0.8rem;
+                font-weight: bold;
+            }
+            .description {
+                font-size: 0.9rem;
+            }
+            .plus {
+                font-weight: bold;
+                font-size: 0.8rem;
+                color: black;
+            }    
         }
     }
    
