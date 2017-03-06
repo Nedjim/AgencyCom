@@ -39,3 +39,11 @@ header {
     text-align: center;
     padding: 4rem 4rem;
 }
+
+#content {
+   text-align: center;
+   margin-top: 4rem;
+   .description {
+       margin-top: 2rem;
+   }
+}
