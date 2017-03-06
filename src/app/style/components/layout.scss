@@ -1,0 +1,41 @@
+.inline-block {
+    display: inline-block;
+}
+
+.aside {
+    float: right;
+}
+
+header {
+    padding: 1rem 6rem 1rem 6rem;
+    #logo {
+        width: 12rem;
+    }
+    .aside {
+        .social-network {
+            text-align: right;
+            img {
+                width: 2rem;
+                margin-right: 1rem;
+            }
+            img:last-child {
+                margin-right: 0;
+            }
+        }
+        nav {
+            margin-top: 1rem;
+            li {
+                display: inline-block;
+                margin-right: 1rem;
+            }
+            li:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+#banner {
+    text-align: center;
+    padding: 4rem 4rem;
+}
