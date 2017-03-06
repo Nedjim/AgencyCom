@@ -1,4 +1,5 @@
 import React from 'react';
+import Actualites from './Actualites.jsx';
 
 export default class Content extends React.Component {
     render(){
@@ -11,6 +12,7 @@ export default class Content extends React.Component {
                    <p>Preferendum est une agence de communication qui accompagnera votre marque pas à pas tout au long de ses <br/>
                    différentes vies pour la faire connaître, grandir, évoluer, se moderniser, renaître... </p>
                 </div>
+                <Actualites />
             </div>
         )
     }

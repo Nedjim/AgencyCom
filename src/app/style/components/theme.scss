@@ -26,9 +26,18 @@ header {
         color: $pink;
         font-size: 1.6rem;
     }
-    p {
-        font-size: 0.9rem;
-        color: $greyDark;
-        line-height: 1.2rem;
+    .description {
+         p {
+            font-size: 0.9rem;
+            color: $greyDark;
+            line-height: 1.2rem;
+        }
     }
+    .actualites {
+        padding-top: 4rem;
+        h1 {
+            color: $greyDark;
+        }
+    }
+   
 }
