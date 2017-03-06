@@ -59,5 +59,17 @@ header {
         background: black;
         color: white;
     }
+    #testimonie > div{
+        h3 {
+            font-size: 2rem;
+        }
+        p {
+            font-size: 1.2rem;
+            color: #5c6571;
+            span {
+                font-weight: bold;
+            }
+        }
+    }
    
 }

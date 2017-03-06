@@ -3,7 +3,6 @@ import Actualites from './Actualites.jsx';
 
 export default class Content extends React.Component {  
     render(){
-        console.log(this.props);
         return (
             <div className='actu inline-block'>
                 <img src={this.props.img}/>
