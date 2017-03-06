@@ -34,10 +34,8 @@ header {
         }
     }
 }
-
-#banner {
-    text-align: center;
-    padding: 4rem 4rem;
+.slide {
+    width: 100%;
 }
 
 #content {
@@ -138,5 +136,40 @@ header {
             margin-top: 1rem;
         }
     }
+    #publications {
+       h1 {
+           margin-top: 2rem;
+       }
+    }
+    #publications > div {
+       text-align: center;
+       padding-top: 3rem;
+       div {
+           display: inline-block;
+           margin-right: 5rem;
+           p {
+               width: 20rem;
+           }
+       }
+       div:last-child {
+           margin-right: 0;
+       }
+   }
 }
 
+footer {
+    margin-top: 3rem;
+    img {
+        width: 100%;
+    }
+    .mention {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        p {
+            text-align: center;
+            font-size: 0.8rem;
+        }
+    }
+}
+
+ 

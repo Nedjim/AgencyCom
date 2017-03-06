@@ -24,7 +24,7 @@ header {
 #content {
     h1 {
         color: $pink;
-        font-size: 1.6rem;
+        font-size: 2.3rem;
     }
     .description {
          p {
@@ -59,6 +59,9 @@ header {
         background: black;
         color: white;
     }
+    #testimonie {
+        background: #F5F5F5;
+    }
     #testimonie > div{
         h3 {
             font-size: 2rem;
@@ -71,5 +74,26 @@ header {
             }
         }
     }
-   
+
+    #publications {
+        h1 {
+            color: $pink;
+            font-size: 2.3rem;
+        }
+         div {
+           p span{
+               color: $pink;
+           }
+       }
+    }
+}
+
+footer {
+    .mention {
+        background: black;
+        color: white;
+        p {
+            font-size: 0.8rem;
+        }
+    }
 }
